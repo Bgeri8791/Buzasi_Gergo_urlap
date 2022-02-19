@@ -40,6 +40,12 @@ nav a:hover{
     background-color: grey;
     color:honeydew
 }
+#nevek{
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+#nevek label{ text-align: right; padding-right: 5px;}
+
 @media screen and (max-width: 600px){
     main{
         background-color: red;
@@ -62,4 +68,9 @@ nav a:hover{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    #nevek{
+        grid-template-columns: auto;
+        font-size: 15pt;
+    }
+    #nevek label{ text-align: left;s}
 }
